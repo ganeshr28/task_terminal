@@ -1,0 +1,185 @@
+html,body{
+
+  width: 100%;
+
+      margin: 0px;
+      padding: 0px;
+      overflow-x: hidden;
+
+}
+#bb{
+  overflow-x: hidden !important;
+}
+
+.logo1 {
+  color: black;
+  font-size: 40px;
+}
+
+.help-block{
+color: red;
+font-size: 20px;
+margin-bottom: 50px !important;
+
+}
+
+
+.md-form{
+  margin: 0px !important;
+}
+input{
+  margin: 0px !important;
+  font-size: 20px !important;
+  padding-bottom: 2px !important;
+  margin-bottom: 15px !important;
+}
+.form-control-feedback{
+  position: absolute;
+  margin-right: 15px;
+  margin-top: 15px;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    pointer-events: none;
+}
+.has-error .form-control-feedback {
+    color: #a94442;
+}
+.has-success .form-control-feedback {
+    color: #3c763d;
+}
+
+#fspace{
+  margin-bottom: 30px;
+}
+
+
+.md-form label{
+  font-size: 20px !important;
+}
+
+.md-form label.active{
+font-size: 15px; !important;
+}
+#from1{
+  overflow: scroll;
+}
+.logo {
+  color: black;
+  font-size: 25px;
+
+}
+
+.nvcolor {
+  background-color: #f3f3f2;
+  width: 100%;
+}
+
+#star{
+  position: absolute;
+
+  color: red;
+  margin-bottom: 50px;
+  margin-left: 80px;
+
+}
+#btn2{
+
+  padding-top: 20px;
+  padding-left: 0px;
+}
+#bt2{
+  background-color: #fb8c00;
+}
+#jumboo{
+  padding-top: 180px;
+}
+.jumbo {
+
+  height: 500px;
+  color: white;
+  background-image: url(images/store-partner.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.btn {
+  background-color: #fb8c00;
+  border: 0px;
+  color: white;
+}
+
+#footer{
+  background-color: black;
+  height: 60px;
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  box-shadow:0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  border-top: #FF4500 solid 2px;
+
+}
+
+#img2{
+width: 100%;
+
+}
+
+.logo:focus{
+  text-decoration:none;
+  border-bottom: #f55c00 solid 5px;
+}
+@media screen and (min-width:500px) and (max-width:700px) {
+  .fon {
+    font-size: 50px;
+  }
+  .fon2 {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .fon {
+    font-size: 35px;
+  }
+  .fon2 {
+    font-size: 30px;
+  }
+#jumbo0{
+  padding-top: 120px;
+  height: 400px;
+}
+}
+
+@media screen and (min-width:400px) and (max-width:980px) {
+  .logo1 {
+    margin-left: 38%;
+    font-size: 35px;
+  }
+  #footer{
+    background-color: black;
+    height: 40px;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    box-shadow:0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    border-top: #FF4500 solid 2px;
+
+
+  }
+  .nav  > a:focus, .nav  > a:hover{
+  text-decoration:none;
+    border-bottom: #ffa500 solid 5px;
+}
+
+.nvcolor {
+  background-color: #f3f3f2;
+  width: 100%;
+
+}
+
+}
